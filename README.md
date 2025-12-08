@@ -1,6 +1,6 @@
 # TAMS_extraction_visualisation
 
-Code in TAMS_extraction scripts compares timestamped transcripts to one another or a script, creates a folder for analysis results, cleans transcripts, outputs the cleaned files as .txt, locates longest contiguous sequences that match, creates a clip from the audio of each transcript’s .wav file for each match, and creates a .csv file that reports sequences and their location (in time and in number of tokens). The core algorithm compares two shows at a time, but the analysis example code shows how you can feed in a bigger collection of shows easily by using combinations from itertools (I've used 20 transcripts at a time, resulting in 20 choose 2 = 190 output files).
+Code in TAMS_extraction scripts compares timestamped transcripts to one another or a script, creates a folder for analysis results, cleans transcripts, outputs the cleaned files as .txt, locates longest contiguous sequences that match, creates a clip from the audio of each transcript’s .wav file for each match, and creates a .csv file that reports sequences and their location (in time and in number of tokens). The core algorithm compares two shows at a time, but the analysis example code shows how you can feed in a bigger collection of shows easily by using combinations from itertools (I've used 20 transcripts at a time, resulting in 20 choose 2 = 190 output folders).
 
 Code in TAMS_visualisation take output files from TAMS_extraction and converts them into interactive visualisations in Processing. 
 
